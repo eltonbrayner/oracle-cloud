@@ -51,6 +51,22 @@ div.content:hover {
   filter: brightness(1.1);
 }
 
+.content h1 {
+  margin-bottom: 1rem;
+}
+
+iframe {
+  margin: 0 auto;
+  display: block;
+  height: 25rem;
+  width: 100%;
+}
+
+.content iframe {
+  border: none;
+  border-radius: 0.75rem;
+}
+
 @media (max-width: 900px) {
   .mainContent {
     gap: 2rem;
@@ -58,24 +74,15 @@ div.content:hover {
 
   div.content {
     width: 100%;
-    padding: 1rem 0.25rem;
+    padding: 1rem 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
   }
 
   iframe {
+    height: 15rem;
     width: 100%;
   }
-}
-
-.content h1 {
-  margin-bottom: 1rem;
-}
-
-iframe {
-  height: 25rem;
-  width: 80%;
-}
-
-.content iframe {
-  border: none;
-  border-radius: 0.75rem;
 }
